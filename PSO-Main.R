@@ -1,5 +1,5 @@
 # Loading in initial data
-tsp_data <- read.csv('C:\\Users\\hotke\\OneDrive\\Documents\\JHU\\Optimization\\Homework\\tsp_data.csv', header = FALSE)
+tsp_data <- read.csv('INSERT FILE PATH', header = FALSE)
 
 # Create vector of all distances between cities. UPDATE: DEPRECATED!
 distances <- tsp_data[lower.tri(tsp_data, diag = TRUE)]
